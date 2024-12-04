@@ -10,7 +10,7 @@ import ProjectDescription
 let workspace = Workspace(
     name: "Dday",
     projects: [
-        "Foundation"
+        "App"
     ],
     schemes: [],
     additionalFiles: [
