@@ -1,0 +1,34 @@
+//
+//  Config.xcconfig
+//  Dday
+//
+//  Created by Kyeongmo Yang on 12/11/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Shared.xcconfig"
+
+// 기본 빌드 설정
+PRODUCT_NAME = DDay-DEV
+PRODUCT_BUNDLE_IDENTIFIER = com.gaeng2y.DDay
+
+// 디버그 관련 컴파일러 설정
+ENABLE_TESTABILITY = YES
+DEBUG_INFORMATION_FORMAT = dwarf
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+
+// 최적화 및 성능 설정
+GCC_OPTIMIZATION_LEVEL = 0
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) DEBUG=1
+
+// 경고 및 에러 설정
+SWIFT_SUPPRESS_WARNINGS = NO
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES
+VALIDATE_PRODUCT = NO
+
+// 리소스 관련 설정
+ASSET_CATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor

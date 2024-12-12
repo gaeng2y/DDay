@@ -8,14 +8,14 @@
 import ProjectDescription
 
 let project = Project(
-    name: "Foundation",
+    name: "Foundations",
     organizationName: "com.gaeng2y",
     targets: [
         .target(
-            name: "Foundation",
+            name: "Foundations",
             destinations: .iOS,
             product: .framework,
-            bundleId: "com.gaeng2y.Dday.Foundation",
+            bundleId: "com.gaeng2y.DDay.Foundations",
             deploymentTargets: .iOS("17.0"),
             infoPlist: .extendingDefault(with: [:]),
             sources: ["Sources/**"],

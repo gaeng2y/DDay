@@ -1,0 +1,11 @@
+//
+//  DevelopmentTeam.xcconfig
+//  Dday
+//
+//  Created by Kyeongmo Yang on 12/11/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+DEVELOPMENT_TEAM=8UV3Y69NB7
