@@ -1,0 +1,42 @@
+{
+  "originHash" : "1289eb2df1a3eb4b5772078383b93daf6a476d62c6111f320da33a932fde3bd8",
+  "pins" : [
+    {
+      "identity" : "reactorkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactorKit/ReactorKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5c91bc4fc727d29fe32a7ba74c6b083eff889a81"
+      }
+    },
+    {
+      "identity" : "ribs-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/uber/RIBs-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "46eb7b9ecbb0ede7de6c243fa07417d79bc99492"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "68647dbe4d90d54e772ecba80656a04c38fb9bdb"
+      }
+    },
+    {
+      "identity" : "weakmaptable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactorKit/WeakMapTable.git",
+      "state" : {
+        "revision" : "cb05d64cef2bbf51e85c53adee937df46540a74e",
+        "version" : "1.2.1"
+      }
+    }
+  ],
+  "version" : 3
+}
