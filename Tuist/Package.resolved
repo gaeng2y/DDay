@@ -1,5 +1,5 @@
 {
-  "originHash" : "1289eb2df1a3eb4b5772078383b93daf6a476d62c6111f320da33a932fde3bd8",
+  "originHash" : "57c4eb12b05478aa5ed70d9bfad4cd667ae20605ffc8bcc9a80451f690d45051",
   "pins" : [
     {
       "identity" : "reactorkit",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/uber/RIBs-iOS.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "46eb7b9ecbb0ede7de6c243fa07417d79bc99492"
+        "revision" : "bc4abbc25f485bff1c1955994a19d5104b209f08",
+        "version" : "0.16.3"
       }
     },
     {
