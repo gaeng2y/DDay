@@ -20,6 +20,6 @@ let package = Package(
         // You can read more about dependencies here: https://docs.tuist.io/documentation/tuist/dependencies
         .package(url: "https://github.com/ReactiveX/RxSwift.git", branch: "main"),
         .package(url: "https://github.com/ReactorKit/ReactorKit.git", branch: "master"),
-        .package(url: "https://github.com/uber/RIBs-iOS.git", branch: "main")
+        .package(url: "https://github.com/uber/RIBs-iOS.git", .upToNextMajor(from: "0.16.3"))
     ]
 )
